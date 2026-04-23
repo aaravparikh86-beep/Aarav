@@ -1,0 +1,9 @@
+print("Welcome to task management app")
+input1 = int(input("How many task do you want to do: "))
+L = []
+num = 1
+while input1 >= num:
+    task = input(f"task {num}: ")
+    L.append(task)
+    num +=1
+print(L)

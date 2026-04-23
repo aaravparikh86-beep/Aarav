@@ -1,0 +1,5 @@
+print("What do you want to do: ")
+print("add task")
+print("Delete task")
+print("Update task")
+print("View task")
